@@ -1,5 +1,5 @@
 class Pessoa{
-    private string name = "";
+    private string nome = "";
 
     public string Nome{
         get {return nome;}
