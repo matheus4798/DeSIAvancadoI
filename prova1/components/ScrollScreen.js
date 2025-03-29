@@ -17,7 +17,7 @@ const ScrollScreen = () => {
     
       <Tab.Navigator>
         <Tab.Screen 
-          name="FlatListScreen" 
+          name="Lista" 
           component={FlatListScreen} 
           options={{
             tabBarIcon: ({ color, size }) => (
@@ -26,8 +26,8 @@ const ScrollScreen = () => {
           }}
         />
         <Tab.Screen 
-          name="FormScreen" 
-          component={FormScreen} 
+          name="Sessão" 
+          component={SectionListScreen} 
           options={{
             tabBarIcon: ({ color, size }) => (
                 <FontAwesome5 name="crow" size={24} color="black" />
@@ -35,8 +35,8 @@ const ScrollScreen = () => {
           }}
         />
         <Tab.Screen 
-          name="SectionListScreen" 
-          component={SectionListScreen} 
+          name="Formulário" 
+          component={FormScreen} 
           options={{
             tabBarIcon: ({ color, size }) => (
                 <FontAwesome name="user-secret" size={24} color="black" />
